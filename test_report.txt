@@ -40,8 +40,8 @@ PASS src/arrays.test.ts
 
 PASS src/nested.test.ts
 PASS src/components/StartAttempt.test.tsx
-PASS src/bad-components/ChooseTeam.test.tsx
 PASS src/components/TwoDice.test.tsx
+PASS src/bad-components/ChooseTeam.test.tsx
 PASS src/functions.test.ts
 PASS src/bad-components/DoubleHalf.test.tsx
 PASS src/components/ChangeType.test.tsx
@@ -2288,5 +2288,5 @@ All files           |   99.47 |    96.92 |   99.07 |    99.4 |
 Test Suites: 1 failed, 16 passed, 17 total
 Tests:       5 failed, 113 passed, 118 total
 Snapshots:   0 total
-Time:        7.304 s
+Time:        7.361 s
 Ran all test suites.

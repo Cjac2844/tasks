@@ -15,10 +15,11 @@ function App(): JSX.Element {
     return (
         <div className="App">
             <header className="App-header">
-                UD CISC275 with React Hooks and TypeScript
+                UD CISC275 with React Hooks and TypeScript Connor Jackson Hello
+                World
             </header>
             <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
+            {<DoubleHalf></DoubleHalf>}
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>

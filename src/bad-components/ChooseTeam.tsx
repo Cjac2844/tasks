@@ -16,12 +16,12 @@ export function ChooseTeam(): JSX.Element {
 
     function chooseMember(newMember: string) {
         if (!team.includes(newMember)) {
-            setTeam([...team, newMember]); // Using spread operator to create a new array with the new member added
+            setTeam([...team, newMember]);
         }
     }
 
     function clearTeam() {
-        setTeam([]); // Setting the team state to an empty array to clear it
+        setTeam([]);
     }
 
     return (
